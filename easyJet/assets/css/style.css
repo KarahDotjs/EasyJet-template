@@ -1,0 +1,179 @@
+ /* ----Header style ------ */
+ 
+ header {
+  background-image: url(/assets/img/headbar.gif);
+  background-size: cover;
+  height: 60px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap:  20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header button {
+    
+    padding: 7px 10px;
+    background: #fff;
+    color: #f60;
+    margin: 0 2px 0;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.container{
+    width: 960px;
+    margin: 0px auto;
+    /* border : 2px solid red; */
+
+} 
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+/* ----- main ----- */
+.beach-section img{
+     width: 100vw;
+    height: 650px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+/* worldwide-default */
+
+.worldwide-default img {
+    width: 640px;
+
+}
+
+.worldwide-default > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+ 
+
+.worldwide-default {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px lightgrey;
+     display: flex;
+}
+.worldwide-default div{
+    padding: 10px;
+
+}
+
+.worldwide-default p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.worldwide-default button {
+    background-color: #f60;
+    border: none;
+    padding: 8px 30px;
+    color : white;
+    border-radius: 2px;
+    align-self: flex-end;
+}
+
+
+/* * ---WORLWIDE---- * */
+
+.worldwide{
+    display: flex;
+}
+
+
+
+.worldwide img {
+    /* width: 100%; */
+    height: 250px;
+    object-fit: cover;
+    object-position: right top;
+    display: block;
+}
+
+/* * WORLWIDE* */
+.worldwide2 img {
+    /* width: 100%; */
+    height: 305px;
+    object-fit: cover;
+    object-position: right top;
+    display: block;
+    
+}
+/* --------------Trip img---------------------- */
+.trip-imgs{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+    
+}
+
+.trip-imgs img {
+    height: 220px;
+    width: 280px;
+  box-shadow: 0 0 5px lightgrey;
+  border-radius: 5px;
+  display: block;
+  object-fit: cover;
+  
+}
+/* ------------------------------- */
+
+
+footer{
+    background-color: lightgrey;
+    
+}
+
+.footer-div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.footer-div li {
+    font-size: 12px;
+    line-height: 18px;
+}
+/* ----------------------------------------- */
+
+/* section > .form-contain {
+    height: 430px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 5px lightgrey;
+    margin: auto;
+    color: red;
+} */
