@@ -1,7 +1,7 @@
  /* ----Header style ------ */
  
  header {
-  background-image: url(/easyJet/assets/img/headbar.gif);
+  background-image: url(/easyJet/assets/imgs/headbar.gif);
   background-size: cover;
   height: 60px;
   font-size: 16px;
@@ -38,6 +38,7 @@ header button {
     width: 960px;
     margin: 0px auto;
     /* border : 2px solid red; */
+    box-shadow: 0 0 5px lightgrey;
 
 } 
 
@@ -47,6 +48,7 @@ h2 {
     font-weight: bold;
     
 }
+
 
 /* ----- main ----- */
 .beach-section img{
@@ -61,6 +63,7 @@ h2 {
 
 .worldwide-default img {
     width: 640px;
+    
 
 }
 
@@ -78,6 +81,8 @@ h2 {
     margin-bottom: 20px;
     box-shadow: 0 0 5px lightgrey;
      display: flex;
+     border-radius: 10px;
+     overflow: hidden;
 }
 .worldwide-default div{
     padding: 10px;
@@ -122,6 +127,56 @@ h2 {
     object-fit: cover;
     object-position: right top;
     display: block;
+    
+}
+/* ------ Carrousel section ---- */
+.carrousel-section {
+    height: 380px;
+    margin-bottom: 20px ;
+    display: flex;
+    overflow: scroll;
+    gap: 20px;
+}
+
+.carrousel-card {
+    height: 370px;
+    width: 300px;
+    box-shadow: 0 0 5px lightgrey;
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.carrousel-card img{
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+.carrousel-card > div {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.carrousel-card button{
+
+    position: absolute;
+    background-color: #f60;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding: 8px 30px;
+    color : white;
+    bottom: 15px;
+    
+  
+    
     
 }
 /* --------------Trip img---------------------- */
