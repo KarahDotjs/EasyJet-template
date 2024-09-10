@@ -227,10 +227,13 @@ width: 280px;
 
 
 footer{
-    background-color: lightgrey;
+    background-color: #f1f5f6;
+   
     
 }
-
+.container {
+  box-shadow: none;
+}
 .footer-div {
     padding: 10px;
     display: flex;
