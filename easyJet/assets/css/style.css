@@ -221,10 +221,38 @@ width: 280px;
   border-radius: 5px;
   display: block;
   object-fit: cover;
+
   
 }
-/* ------------------------------- */
+ /* .bottom-carrousel */
+.bottom-carrousel {
+    border: 2px solid blue;
+    margin-bottom: 50px;
+}
+.bottom-carrousel h3 {
+    font-size: 20px;
+    margin-bottom:20px ;
+   
+    
+}
 
+.bottom-carrousel  div {
+    /* border: 2px solid red; */
+    width: 145px;
+    height: 145px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    flex-shrink: 0;
+}
+.bottom-carrousel > menu {
+   border: 2px solid green;
+   display: flex;
+   overflow: scroll;
+   
+}
+/* ------------------------------- */
 
 footer{
     background-color: #f1f5f6;
