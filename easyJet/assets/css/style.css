@@ -226,7 +226,6 @@ width: 280px;
 }
  /* .bottom-carrousel */
 .bottom-carrousel {
-    border: 2px solid blue;
     margin-bottom: 50px;
 }
 .bottom-carrousel h3 {
@@ -237,7 +236,6 @@ width: 280px;
 }
 
 .bottom-carrousel  div {
-    /* border: 2px solid red; */
     width: 145px;
     height: 145px;
     padding: 20px;
@@ -245,12 +243,36 @@ width: 280px;
     background-color: #333;
     color: white;
     flex-shrink: 0;
+    box-sizing: border-box;
 }
 .bottom-carrousel > menu {
-   border: 2px solid green;
+   gap: 20px;
    display: flex;
    overflow: scroll;
    
+}
+/* --------------------------------------- */
+.carrousel-section::-webkit-scrollbar{
+  
+  display: none;
+}
+
+ .carrousel-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* ------------------------------------------------------------------------- */
+.bottom-carrousel ::-webkit-scrollbar {
+    display: none;
+}
+.bottom-carrousel {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.bottom-carrousel div:hover {
+   background-color: #f70;
+   cursor: pointer;
 }
 /* ------------------------------- */
 
@@ -280,11 +302,3 @@ footer{
 }
 /* ----------------------------------------- */
 
-/* section > .form-contain {
-    height: 430px;
-    width: 300px;
-    padding: 20px;
-    box-shadow: 0 0 5px lightgrey;
-    margin: auto;
-    color: red;
-} */
