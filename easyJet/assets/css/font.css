@@ -11,16 +11,16 @@
   font-display: swap;
 }
 
-/* @font-face {
+@font-face {
     font-family: 'easyJet Rounded Demi';
-    src: url('easyJetRoundedDemi.eot');
-    src: url('easyJetRoundedDemi.eot?#iefix') format('embedded-opentype'),
-        url('easyJetRoundedDemi.woff2') format('woff2'),
-        url('easyJetRoundedDemi.woff') format('woff'),
-        url('easyJetRoundedDemi.ttf') format('truetype'),
-        url('easyJetRoundedDemi.svg#easyJetRoundedDemi') format('svg');
+    src: url('../fonts/easyJetRoundedDemi.eot');
+    src: url('../fonts/easyJetRoundedDemi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/easyJetRoundedDemi.woff2') format('woff2'),
+        url('../fonts/easyJetRoundedDemi.woff') format('woff'),
+        url('../fonts/easyJetRoundedDemi.ttf') format('truetype'),
+        url('../fonts/easyJetRoundedDemi.svg#easyJetRoundedDemi') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-} */
+}
 

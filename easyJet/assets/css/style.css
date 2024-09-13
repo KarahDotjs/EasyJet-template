@@ -1,11 +1,12 @@
  /* ----Header style ------ */
  body {
      font-family:"easyJet Rounded Book";
-     /* font-family: 'easyJet Rounded Demi'; */
  }
+
  header {
   background-image: url(/easyJet/assets/imgs/headbar.gif);
   background-size: cover;
+  font-family: 'easyJet Rounded Demi';
   height: 60px;
   font-size: 16px;
  
@@ -50,7 +51,10 @@ h2 {
     font-weight: bold;
     
 }
-
+ 
+h1, h2 , h3 {
+    font-family: 'easyJet Rounded Demi';
+}
 
 /* ----- main ----- */
 .beach-section img{
