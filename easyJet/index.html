@@ -5,17 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="easyJet/assets/imgs/ej-title.png" />
+  <script src="https://kit.fontawesome.com/f3e74d4ede.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/font.css">
+  <link rel="stylesheet" href="./assets/css/booking-menu.css">
 
   <title>easyJet</title>
 </head>
-
 <body>
   <header>
     <div>
-      <img src="/easyJet/assets/imgs/ej-title.png" alt="title " />
+      <img src="/easyJet/assets/imgs/ej-title.png" alt="title logo" />
       <a href="">Infos de vol </a>
       <a href="">Voiture et autres services</a>
       <a href="">Business</a>
@@ -26,12 +28,75 @@
       <a href=""><button>S'enregistrer</button></a>
       <a href="">Se connecter</a>
       <a href="">Aide</a>
-      <a href="">Fr-FR <img src="/easyJet/assets/imgs/drapeau.png" alt=""></a>
+      <a href="">Fr-FR <img src="/easyJet/assets/imgs/drapeau.png" alt=" french flag"></a>
     </div>
   </header>
   <main>
     <section class="beach-section">
-      <img src="/easyJet/assets/imgs/beach.jpg" alt=" beach " />
+      <div>
+        <img src="/easyJet/assets/imgs/beach.jpg" alt=" beach" />
+        <div class="beach-absolute">
+          <div class=" container booking-menu-container">
+            <section class="booking-menu">
+            <div class="checkbox">
+              <label><input type="checkbox id=" checkbox" /></label for="checkbox">Aller simple</label>
+            </div>
+            <div class="destination">
+              <label>De : <input type="text" /></label>
+              <div>
+                <div class="destination-line"></div>
+                <label>À : <input type="text" /></label>
+              </div>
+            </div>
+            <div class="date-picker">
+            <div><i class="fa-regular fa-calendar-days"></i>
+            <p>Aller</p>
+            </div>
+              <div></div>
+              <div>
+              <i class="fa-regular fa-calendar-days"></i>
+              <p>Retour</p>
+              </div>
+             
+            </div>
+            <div class="quantity-seat">
+              <div>
+                <p>Adultes (16+)</p>
+                <div>
+                  <button><i class="fa-solid fa-minus"></i></button>
+                  <span>1</span><button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+              <div>
+                <p>Enfants (2-15)</p>
+                <div>
+                  <button><i class="fa-solid fa-minus"></i></button>
+                  <span>1</span><button><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+              <div>
+                <p>Bébé (<2)< /p>
+                    <div>
+                      <button><i class="fa-solid fa-minus"></i></button>
+                      <span>1</span><button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+              </div>
+              <div>
+              </div>
+            </div>
+            <button>Afficher les vols > </button>
+            <div class="booking-menu-bottom">
+              <p>À propos de l'assistance spéciale ></p>
+              <p>Nous compensons nos émissions carbone ></p>
+            </div>
+            </section>
+    </section>
+    <div class="left-column">
+    </div>
+    </div>
+    </div>
+    </div>
+
     </section>
     <section class="container worldwide worldwide-default">
       <img src="/easyJet/assets/imgs/worldwide-img.jpg" alt="worldwide-img" />
@@ -144,28 +209,44 @@
       <menu>
         <div>
           <p>Questions fréquentes</p>
+          <i class="fa-regular fa-circle-question icon"></i>
         </div>
         <div>
           <p>Bagages</p>
+          <i class="fa-solid fa-suitcase icon "></i>
         </div>
         <div>
           <p>Retards et annulations</p>
+          <i class="fa-regular fa-clock icon"></i>
         </div>
         <div>
           <p>S'enregistrer en ligne</p>
+          <i class="fa-solid fa-mobile-screen-button icon"></i>
         </div>
         <div>
           <p>Effectuer un changement</p>
+          <i class="fa-solid fa-pen icon"></i>
         </div>
         <div>
           <p>Protection contre les restrictions de voyage</p>
+          <i class="fa-solid fa-user-shield icon"></i>
         </div>
-<div> <p>Questions fréquentes</p></div>
-<div> <p>Questions fréquentes</p></div>
-<div> <p>Questions fréquentes</p></div>
-<div> <p>Questions fréquentes</p></div>
-<div> <p>Questions fréquentes</p></div>
-         
+        <div>
+          <p>Questions fréquentes</p>
+        </div>
+        <div>
+          <p>Questions fréquentes</p>
+        </div>
+        <div>
+          <p>Questions fréquentes</p>
+        </div>
+        <div>
+          <p>Questions fréquentes</p>
+        </div>
+        <div>
+          <p>Questions fréquentes</p>
+        </div>
+
         </div>
       </menu>
     </section>
